@@ -78,7 +78,8 @@ class TicTacToe
   end
   
   def won?
-    
+    WIN_COMBINATIONS.detect do |each|
+      
   end
   
   def full?
