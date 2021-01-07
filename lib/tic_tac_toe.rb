@@ -50,6 +50,10 @@ class TicTacToe
   def turn_count
     count = 0
     @board.each do |spaces|
-      if 
+      if spaces == "X" || spaces == "0"
+      counter += 1 
+    end
+    counter
+  end
   end
 end
