@@ -86,7 +86,7 @@ class TicTacToe
   end
   
   def full?
-    @board.
+    @board.all? do 
   end
   
   def draw?
