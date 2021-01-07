@@ -66,6 +66,7 @@ class TicTacToe
   end
   
   def turn
-    puts "Make your move by "
+    puts "Make your move by entering a number 1-9. 1 is in the upper left corner. 9 is in the lower right corner."
+    
   
 end
