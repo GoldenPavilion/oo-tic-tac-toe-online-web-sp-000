@@ -115,7 +115,10 @@ class TicTacToe
     end
     
     if won? 
-      puts 
+      puts "Congratulations #{winner}, you won!"
+    elsif draw?
+      puts "The game ended in a draw. Play again!"
+    end
   end
   
 end
