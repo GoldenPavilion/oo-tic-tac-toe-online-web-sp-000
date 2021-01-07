@@ -55,5 +55,4 @@ class TicTacToe
     end
     counter
   end
-  end
 end
