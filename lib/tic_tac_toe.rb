@@ -63,4 +63,5 @@ class TicTacToe
     else
       return "O"
     end
+  end
 end
