@@ -69,6 +69,7 @@ class TicTacToe
     puts "Make your move by entering a number 1-9. 1 is in the upper left corner. 9 is in the lower right corner."
     user_input = gets.strip
     index = input_to_index(user_input)
-    if 
+    if valid_move?(index)
+      
   
 end
