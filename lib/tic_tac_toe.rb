@@ -113,6 +113,9 @@ class TicTacToe
     until over?
       turn
     end
+    
+    if won? 
+      puts 
   end
   
 end
