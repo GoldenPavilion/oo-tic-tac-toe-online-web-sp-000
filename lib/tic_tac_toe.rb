@@ -87,7 +87,7 @@ class TicTacToe
   
   def full?
     @board.all? do |space|
-      spaces == "X" || spaces == "O"
+      space == "X" || space == "O"
     end
   end
   
