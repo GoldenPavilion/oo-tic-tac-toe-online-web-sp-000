@@ -65,4 +65,7 @@ class TicTacToe
     end
   end
   
+  def turn
+    puts "Make your move by "
+  
 end
