@@ -51,9 +51,9 @@ class TicTacToe
     count = 0
     @board.each do |spaces|
       if spaces == "X" || spaces == "0"
-      counter + 1 
+      count += 1 
       end
     end
-    counter
+    count
   end
 end
