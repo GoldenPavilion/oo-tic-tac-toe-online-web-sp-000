@@ -86,7 +86,7 @@ class TicTacToe
   end
   
   def full?
-    if @board 
+    @board.
   end
   
   def draw?
