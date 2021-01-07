@@ -104,7 +104,8 @@ class TicTacToe
   end
   
   def winner
-    @board.won?
+    if won?
+      
   end
   
 end
